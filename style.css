@@ -1,0 +1,42 @@
+:root {
+  --main-bg-color: coral;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background-color: var(--main-bg-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  cursor: pointer;
+  width: 150px;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  background-color: var(--main-bg-color);
+  border: 1px solid salmon;
+  border-radius: 5px;
+  margin: 20px;
+  box-shadow: 2px 4px 5px 0px rgba(0, 0, 0, 0.75);
+  outline: none;
+}
+
+.btn:hover {
+  background-color: #222;
+  color: #fff;
+}
+
+.color-code {
+  text-transform: uppercase;
+}
